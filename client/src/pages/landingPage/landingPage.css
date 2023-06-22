@@ -97,7 +97,6 @@
         border-bottom-right-radius: 15px;
 
         background-color: transparent;
-        /* background-color: aquam  arine; */
     }
         #landing-page-body-login-form-textfield {
             display: flex;
@@ -150,9 +149,6 @@
                 width: 90%;
                 height: 40%;
             }
-
-
-
 
 
 #landing-page-footer {

@@ -1,0 +1,127 @@
+#home-page-main {
+    display: flex;
+    flex-direction: column;
+
+    width: 100vw;
+    /* height: 100vh; */
+    min-height: 100vh;
+
+    background-color: aqua;
+}
+
+/* ========================= HEADER STYLE ========================= */
+
+#home-page-header {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+
+    background-color: #1d366f;
+    /* background-color: #FAF9F7; */
+}
+
+/* ========================= BODY STYLE ========================= */
+
+#home-page-body {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: 90vh;
+
+    background-color: blueviolet;
+}
+
+#home-page-body-left-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 30%;
+    height: 100%;
+    
+    background-color: #e9ecef;
+    /* background-color: #ffffff; */
+}
+
+#home-page-body-left-menu-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    width: 75%;
+    height: 95%;
+
+    background-color: #E9ECEF;
+}
+
+#home-page-body-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    width: 80%;
+    height: 100%;
+
+    
+    
+    /* background-color: #FFFFFF; */
+    background-color: #ffffff;
+}
+
+#home-page-body-content-feed-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    width: 75%;
+    height: 100%;
+
+    background-color: #ffffff;
+
+}
+
+
+#home-page-body-content-new-post {
+    display: flex;
+
+    width: 85%;
+    height: 15%;
+
+    
+    background-color: aquamarine;
+}
+
+#home-page-body-content-feed {
+    display: flex;
+
+    width: 85%;
+    min-height: 100%;
+
+    background-color: blue;
+
+}
+
+/* ========================= FOOTER STYLE ========================= */
+
+#home-page-footer {
+    display: flex;
+    width: 100%;
+    height: 20vh;
+
+    background-color: chocolate;
+}
+
+
+
+#logo {
+
+    display: flex;
+    width: 10%;
+    height: 100%;
+
+    background-image: url("../../../public/logo/logo.svg");
+}
