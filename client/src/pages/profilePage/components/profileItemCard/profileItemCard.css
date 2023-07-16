@@ -1,0 +1,35 @@
+#profile-item-card-main {
+    display: flex;
+
+    border-radius: 4px;
+
+    width: 23.5%;
+    height: 31.5%;
+
+    margin-inline: 0.6%;
+    margin-bottom: 1.2%;
+
+    background-color: rgb(116, 226, 43);
+    /* transform: scale(1); */
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+#profile-item-card-main:hover {
+    display: flex;
+
+    border-radius: 4px;
+
+    width: 23%;
+    height: 31.5%;
+
+    margin-inline: 0.6%;
+    margin-bottom: 1.2%;
+
+    background-color: rgb(116, 226, 43);
+
+    cursor: pointer;
+    /* transform: scale(1.04); */
+    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}

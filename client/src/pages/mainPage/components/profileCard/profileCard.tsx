@@ -9,12 +9,12 @@ export default function ProfileCard() {
             </div>
             <div id="profile-card-follow">
                 <div id="profile-card-following" className="follow-data">
-                    <p className="profile-card-following-name">Following</p>
-                    <p className="profile-card-following-value">51</p>
+                    <p className="profile-card-follow-data-name">Following</p>
+                    <p className="profile-card-follow-data-value">51</p>
                 </div>
                 <div id="profile-card-followers" className="follow-data">
-                    <p className="profile-card-following-name">Followers</p>
-                    <p className="profile-card-following-value">3000</p>
+                    <p className="profile-card-follow-data-name">Followers</p>
+                    <p className="profile-card-follow-data-value">3000</p>
                 </div>
             </div>
             <div id="profile-card-details-link">

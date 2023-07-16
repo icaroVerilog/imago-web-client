@@ -1,0 +1,58 @@
+#profile-page-main {
+    display: flex;
+    flex-direction: column;
+
+    width: 100vw;
+    /* height: 100vh; */
+    min-height: 100vh;
+
+    background-color: aqua;
+}
+
+
+/* ========================= BODY STYLE ========================= */
+
+#profile-page-body {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: 90vh;
+
+    background-color: blueviolet;
+}
+
+
+#profile-page-body-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    width: 80%;
+    height: 100%;
+
+    
+    
+    background-color: #FFFFFF;
+    /* background-color: #8d1010; */
+}
+
+#profile-page-body-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+
+    height: 97.5%;
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    /* background-color: blueviolet; */
+    background-color: #FFFFFF;
+}

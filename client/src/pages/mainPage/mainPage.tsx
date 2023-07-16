@@ -1,16 +1,14 @@
 import React from "react"
 
-import ProfileCard from "./components/profileCard"
-
+import ProfileCard from "./components/profileCard/profileCard"
+import Header      from "../../components/header/header"
 
 import "./mainPage.css"
 
 export default function MainPage(){
     return (
         <div id="home-page-main">
-            <div id="home-page-header">
-                <img src="../../../public/logo/logo.svg" alt="aa" />
-            </div>
+            <Header/>
             <div id="home-page-body">
                 <div id="home-page-body-left-menu">
                     <div id="home-page-body-left-menu-wrapper">

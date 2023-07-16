@@ -1,0 +1,26 @@
+#left-menu-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 23%;
+    height: 100%;
+    
+    /* background-color: #e9ecef; */
+    background-color: #ffffff;
+    /* background-color: rgb(12, 87, 131); */
+}
+
+#left-menu-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    width: 93%;
+    height: 95%;
+
+    border-radius: 4px;
+
+    background-color: #E9ECEF;
+    /* background-color: rgb(75, 38, 160); */
+}
